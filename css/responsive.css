@@ -1,0 +1,124 @@
+@media only screen and (max-width: 992px)  {
+    .banner .row {
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+    .banner-box,.slider-box {
+        max-width: 100%;
+        flex: 100%;
+    }
+    .product-box {
+        max-width: 50%;
+    }
+    .navbar {
+        border-bottom: 1px solid #dddddd78;
+    }
+    .nav-list {
+        background: #f5f5f5;
+        position: fixed;
+        right: -300px;
+        width: 100%;
+        max-width: 250px;
+        padding: 10px;
+        height: 100%;
+        top: 114px;
+        z-index: 10;
+        box-shadow: -1px 3px 8px -4px #ddddddc4;
+        transition: all 0.4s;
+    }
+    #mainNavigation.active .nav-list  {
+        right: 0px;
+        transition: all 0.4s;
+        transform: translateX(0px);
+    }
+    .nav-list li {
+        width: 100%;
+    }
+    .nav-list li a {
+        padding: 10px 0 !important;
+        margin: 0 !important;
+    }
+    .top-bar {
+        padding: 5px 10px;
+    }
+    .navbar {
+        padding: 25px 10px;
+    }
+    #nav-icon {
+        display: block;
+    }
+    .footer .row  {
+        flex-wrap: wrap;
+    }
+    .footer-box {
+        max-width: 30%;
+    }
+}
+@media only screen and (max-width: 768px)  {
+    .header-title {
+        display: none;
+    }
+    .product-section .row {
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+    .half-column {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .img-wrapper {
+        height: auto;
+    }
+    .vertical-product-box {
+        margin: 20px 0 0;
+    }
+    .insta-feed-row {
+        flex-wrap: wrap;
+    }
+    .vertical-product-box .product-box {
+        max-width: 80%;
+    }
+    .feature-box,.insta-feed-box {
+        max-width: 50%;
+    }
+    .feature-section {
+        padding: 40px 0;
+    }
+    .subscribe-box,.footer-box {
+        max-width: 50%;
+    }
+}
+@media only screen and (max-width: 576px)  {
+    .product-box {
+        max-width: 100%;
+        padding: 10px 10px;
+        cursor: pointer;
+    }
+    .product-content h3 {
+        font-size: 26px;
+        line-height: 30px;
+        margin: 0 0 5px;
+    }
+    .heading-box h3 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .subscribe-box {
+        max-width: 100%;
+    }
+    .subscribe-box h4, .footer-box h4 {
+        font-size: 14px;
+    }
+    .insta-feed-box {
+        max-width: 100%;
+    }
+    .secondary-btn {
+        margin: 10px auto 0;
+    }
+}
+@media only screen and (max-width: 320px)  {
+    html,body {
+        width: 320px;
+        overflow-x: auto;
+    }
+}
